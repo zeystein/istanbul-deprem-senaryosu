@@ -235,7 +235,7 @@ Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleye
 
 1. **Proje Dosyasını Klonlayın:**
    ```bash
-   git clone https://github.com/kullanici_adi/istanbul-deprem-analizi.git
+   git clone https://github.com/zeystein/istanbul-deprem-senaryosu.git
    ```
 
 2. **Gerekli Bağımlılıkları Yükleyin:**
