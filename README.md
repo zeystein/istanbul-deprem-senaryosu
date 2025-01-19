@@ -290,4 +290,7 @@ Her türlü katkıya açığız! Sorularınızı, önerilerinizi ve geri bildiri
 
 ---
 
+## 🔗 Youtube linki
+
+   https://youtu.be/kvJhx0krico
 
