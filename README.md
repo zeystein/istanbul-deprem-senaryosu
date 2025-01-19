@@ -290,7 +290,4 @@ Her türlü katkıya açığız! Sorularınızı, önerilerinizi ve geri bildiri
 
 ---
 
-## 🌐 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında kullanıma sunulmuştur. Daha fazla bilgi için `LICENSE` dosyasına göz atabilirsiniz.
 
