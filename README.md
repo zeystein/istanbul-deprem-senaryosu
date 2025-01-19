@@ -117,6 +117,7 @@ plt.suptitle("Histogram of Features")
 plt.show()
 ```
 **Amaç:** Verilerin dağılımını incelemek için histogram grafikleri oluşturulmuştur.
+![histogram](https://github.com/user-attachments/assets/bb3a481f-eed4-4b0d-a3df-405f06cdc534)
 
 ---
 
@@ -131,6 +132,8 @@ plt.title("Correlation Matrix")
 plt.show()
 ```
 **Amaç:** Veriler arasındaki ilişkileri analiz etmek için korelasyon matrisi hesaplanıp görselleştirilmiştir.
+![coorelationmatrix](https://github.com/user-attachments/assets/7fdfd6e2-6f15-45cf-9bc2-46b15609b29d)
+
 
 ---
 
