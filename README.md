@@ -260,7 +260,7 @@ Uygulanan modeller arasında en iyi performansı gösteren model XGBoost olmuşt
 Linear Regression modeli, basitliği nedeniyle hızlı bir çözüm sunmuş, ancak doğruluk oranı sınırlı kalmıştır.
 Random Forest, doğruluk oranı yüksek bir model olarak etkili sonuçlar üretmiştir.
 ##  2. Model Sonuçlarının Yorumlanması 🧠💬🔍
-Yüksek korelasyon gösteren değişkenler, model performansını olumlu etkilemiştir. Özellikle "bina yoğunluğu", "nüfus", "deprem şiddeti" gibi değişkenlerin hasar tahmini üzerinde belirgin bir etkisi olduğu gözlemlenmiştir.
+Yüksek korelasyon gösteren değişkenler, model performansını olumlu etkilemiştir.
 R² = 0.89, modelin yüksek bir açıklama gücüne sahip olduğunu ve bağımsız değişkenlerin deprem sonrası tahmini zararı oldukça iyi açıkladığını göstermektedir.
 MSE, tahminlerin gerçek zarar miktarından ortalama 1.133 birim kare hata ile saptığını göstermektedir. Büyük sapmalara karşı daha hassas olan bu metrik, modelin doğruluk oranını ölçmek için önemli bir gösterge sunmaktadır.
 MAE, tahmin edilen zarar miktarlarının gerçek değerlerden ortalama 0.83 birim sapma gösterdiğini ifade eder. Bu düşük hata oranı, modelin deprem sonrası zarar tahmini konusunda başarılı olduğunu göstermektedir.
