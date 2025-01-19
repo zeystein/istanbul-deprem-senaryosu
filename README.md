@@ -1,6 +1,6 @@
 # 🌌 Istanbul Deprem Senaryosu Analizi
 
-Bu proje, İstanbul' bölgesinde gece saatlerinde 7.5 Mw büyüklüğünde bir deprem senaryosu üzerine analiz yapılmasını amaçlayan bir veri analizi çalışmasını içermektedir.
+Bu proje, İstanbul bölgesinde gece saatlerinde 7.5 Mw büyüklüğünde bir deprem senaryosu üzerine analiz yapılmasını amaçlayan bir veri analizi çalışmasını içermektedir.
 Proje, bir deprem senaryosuna ilişkin verilere dayanarak can kaybı tahmini yapmak için farklı makine öğrenimi modellerinin kullanılmasını ve performanslarını karşılaştırmayı amaçlamaktadır.
 Projede hem regresyon hem de çeşitli görselleştirme teknikleri kullanılarak verilerin analizi yapılmıştır.
 
