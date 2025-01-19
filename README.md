@@ -253,10 +253,28 @@ Projeyi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleye
 
 ---
 
-## 🔬 Sonuçlar
+##  🏁🔎✨ Sonuç Analizi
+##  1. Modellerin Performans Değerlendirmesi 📈✅🧮
+Uygulanan modeller arasında en iyi performansı gösteren model XGBoost olmuştur. XGBoost, düşük MSE ve yüksek R² skoru ile diğer algoritmalardan üstün performans sergilemiştir.
 
-Bu çalışma, İstanbul bölgesindeki bir deprem senaryosuna ilişkin potansiyel etkileri detaylı bir şekilde analiz etmiş ve değerlendirmiştir. 
-Model performansları, çeşitli veri görsellemeleri ve elde edilen bulgular, deprem riskinin anlaşılması ve karar vericilere öneriler sunulması açısından çok değerli çıktılar sağlamıştır.
+Linear Regression modeli, basitliği nedeniyle hızlı bir çözüm sunmuş, ancak doğruluk oranı sınırlı kalmıştır.
+Random Forest, doğruluk oranı yüksek bir model olarak etkili sonuçlar üretmiştir.
+##  2. Model Sonuçlarının Yorumlanması 🧠💬🔍
+Yüksek korelasyon gösteren değişkenler, model performansını olumlu etkilemiştir. Özellikle "bina yoğunluğu", "nüfus", "deprem şiddeti" gibi değişkenlerin hasar tahmini üzerinde belirgin bir etkisi olduğu gözlemlenmiştir.
+R² = 0.89, modelin yüksek bir açıklama gücüne sahip olduğunu ve bağımsız değişkenlerin deprem sonrası tahmini zararı oldukça iyi açıkladığını göstermektedir.
+MSE, tahminlerin gerçek zarar miktarından ortalama 1.133 birim kare hata ile saptığını göstermektedir. Büyük sapmalara karşı daha hassas olan bu metrik, modelin doğruluk oranını ölçmek için önemli bir gösterge sunmaktadır.
+MAE, tahmin edilen zarar miktarlarının gerçek değerlerden ortalama 0.83 birim sapma gösterdiğini ifade eder. Bu düşük hata oranı, modelin deprem sonrası zarar tahmini konusunda başarılı olduğunu göstermektedir.
+##  3. Öne Çıkan Bulgular 🌟📊📚
+Verilerin logaritmik dönüşümü, model performansını önemli ölçüde artırmıştır.
+Eksik ve uç değerlerin doğru şekilde yönetilmesi, veri kalitesini yükseltmiş ve model doğruluğunu artırmıştır.
+Görselleştirme teknikleri, analiz sonuçlarının daha iyi anlaşılmasını sağlamış ve karar verme süreçlerini desteklemiştir.
+##  4. Geliştirme Önerileri 🚀💡🔮
+Daha geniş kapsamlı bir veri seti ile modellerin tekrar eğitilmesi, daha doğru sonuçlar sağlayabilir.
+Model optimizasyonu için GridSearchCV veya Bayesian Optimization yöntemleri kullanılabilir.
+Projenin bir web uygulamasına dönüştürülmesi, daha geniş bir kullanıcı kitlesine ulaşmayı sağlayabilir.
+Bu proje, İstanbul’da gece gerçekleşecek bir deprem senaryosu için etkili bir analiz sunmuş ve makine öğrenmesi tekniklerinin afet yönetimi ve risk analizi gibi alanlarda nasıl kullanılabileceğini göstermiştir. Gelecekte yapılacak geliştirmelerle bu tür projeler, karar vericiler ve afet yönetim ekipleri için daha geniş kapsamlı ve faydalı hale getirilebilir. 🌍📈🏙️
+
+
 
 ---
 
